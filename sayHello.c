@@ -8,7 +8,10 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello!\n");
+    char name[100];
+    printf("input your name: ");
+    scanf("%s", name);
+    printf("%s, Hello!\n", name);
     return 0;
 }
 
